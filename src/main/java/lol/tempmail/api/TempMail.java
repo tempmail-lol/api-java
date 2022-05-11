@@ -113,7 +113,7 @@ public class TempMail {
      */
     @Nullable
     @Contract(pure = true)
-    public static Email[] getEmails(@NotNull String token) throws TempMailTokenExpiredException{
+    public static Email[] getEmails(@NotNull String token) throws TempMailTokenExpiredException {
         return getEmails(new Inbox("", token));
     }
     
