@@ -54,5 +54,5 @@
             <url>https://maven.pkg.github.com/alexanderepolite/tempmail.lol-java-api</url>
         </repository>
     </distributionManagement>
-
+    
 </project>
