@@ -34,6 +34,7 @@ public class TempMail {
      * @return The response as a {@link String} from the server, or {@code null} if there is no response data.
      * @throws IOException If the request fails.
      */
+    @NotNull
     @Contract(pure = true)
     private static String makeHTTPRequest(@NotNull String endpoint) throws IOException {
         HttpsURLConnection connection = (HttpsURLConnection) new URL(BASE_URL + endpoint).openConnection();
