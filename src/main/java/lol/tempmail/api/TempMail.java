@@ -116,7 +116,7 @@ public class TempMail {
     @Contract(pure = true)
     public static Email[] getEmails(@NotNull String token) throws TempMailTokenExpiredException {
         //just call the other method with an empty address for the inbox
-        //since the address isn't used the token is all that's needed.
+        //since the address isn't used the token is all that's needed
         return getEmails(new Inbox("", token));
     }
     
