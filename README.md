@@ -25,4 +25,20 @@ public class Main {
 ```
 
 ## Installation
+
+### Maven
+
+Add the following to your `pom.xml`:
+```xml
+<dependency>
+  <groupId>lol.tempmail</groupId>
+  <artifactId>api</artifactId>
+  <version>[VERSION]</version>
+</dependency>
+```
+
+where [VERSION] is the version displayed on the GitHub releases page.
+
+### Gradle
+
 Coming soon!
