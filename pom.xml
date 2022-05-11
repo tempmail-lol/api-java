@@ -6,7 +6,7 @@
     
     <groupId>lol.tempmail</groupId>
     <artifactId>api</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
     <description>Java API for www.TempMail.lol</description>
     <name>TempMail API</name>
