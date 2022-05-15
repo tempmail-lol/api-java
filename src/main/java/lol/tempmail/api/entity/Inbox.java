@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class Inbox {
+public final class Inbox {
     private final String address;
     private final String token;
 }

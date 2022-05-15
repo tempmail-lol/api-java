@@ -21,7 +21,7 @@ import java.net.URL;
  * @see Inbox
  * @see Email
  */
-public class TempMail {
+public final class TempMail {
     
     private static final String BASE_URL = "https://api.tempmail.lol";
     

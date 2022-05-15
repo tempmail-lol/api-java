@@ -7,7 +7,7 @@ import org.jetbrains.annotations.Nullable;
 
 @Data
 @AllArgsConstructor
-public class Email {
+public final class Email {
     
     @NotNull
     private final String toAddress;
